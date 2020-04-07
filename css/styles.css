@@ -1,0 +1,164 @@
+
+
+body
+{
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* css only show/hide*/
+.container{
+    padding: 5%;
+}
+article {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+article:before, article:after {
+    content: "";
+    display: table;
+}
+
+article:after { clear: both }
+
+article section:first-of-type {
+    float: right;
+    width: 100%;
+}
+
+article section:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+[for="read_more"] {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+}
+
+[for="read_more"]:hover {
+    background: rgba(0,0,0,.5);
+    color: rgb(255,255,255);
+}
+
+[for="read_more"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ section {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+    display: block;
+    visibility: visible;
+}
+
+/* read more 2 */
+
+.container{
+    padding: 5%;
+}
+article {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+article:before, article:after {
+    content: "";
+    display: table;
+}
+
+article:after { clear: both }
+
+article section:first-of-type {
+    float: right;
+    width: 100%;
+}
+
+article section:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+[for="read_mor"] {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+}
+
+[for="read_mor"]:hover {
+    background: rgba(0,0,0,.5);
+    color: rgb(255,255,255);
+}
+
+[for="read_mor"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ section {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_mor"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_mor"] span:last-of-type {
+    display: block;
+    visibility: visible;
+}
+
+/* progress loder */
+
